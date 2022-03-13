@@ -26,6 +26,7 @@ type MyGetters = {
   };
 };
 
+// 인터섹션 (합진합) -> &
 export type MyStore = Omit<
   Store<RootState>,
   "commit" | "dispatch" | "getters"
