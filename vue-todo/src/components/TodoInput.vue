@@ -9,6 +9,7 @@
 <script lang="ts">
 import Vue, { PropType } from "vue";
 import { Todo } from "../App.vue";
+import { VueEvent } from "@/types/index";
 
 export default Vue.extend({
   //props: ["item"],
